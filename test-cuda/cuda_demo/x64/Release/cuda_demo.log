@@ -1,0 +1,6 @@
+﻿  Compiling CUDA source file cuda_main.cu...
+  
+  E:\AAAworkfiles\MyProjects-C\test-cuda\cuda_demo>"E:\A software\CUDAS\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "E:\A software\Visual Studio\VC\Tools\MSVC\14.26.28801\bin\HostX86\x64" -x cu   -I"E:\A software\CUDAS\include" -I"E:\A software\CUDAS\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS /Zi  /MD " -o x64\Release\cuda_main.cu.obj "E:\AAAworkfiles\MyProjects-C\test-cuda\cuda_demo\cuda_main.cu" 
+  cuda_main.cu
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+  cuda_demo.vcxproj -> E:\AAAworkfiles\MyProjects-C\test-cuda\cuda_demo\x64\Release\cuda_demo.exe

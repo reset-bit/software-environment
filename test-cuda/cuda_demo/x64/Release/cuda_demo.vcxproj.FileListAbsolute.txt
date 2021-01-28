@@ -1,0 +1,1 @@
+E:\AAAworkfiles\MyProjects-C\test-cuda\cuda_demo\x64\Release\cuda_demo.exe

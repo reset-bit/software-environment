@@ -1,0 +1,12 @@
+﻿  Compiling CUDA source file cuda_main.cu...
+  
+  E:\AAAworkfiles\MyProjects-C\test-cuda\cuda_demo>"E:\A software\CUDAS\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "E:\A software\Visual Studio\VC\Tools\MSVC\14.26.28801\bin\HostX86\x64" -x cu   -I"E:\A software\CUDAS\include" -I"E:\A software\CUDAS\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\cuda_main.cu.obj "E:\AAAworkfiles\MyProjects-C\test-cuda\cuda_demo\cuda_main.cu" 
+  cuda_main.cu
+E:/AAAworkfiles/MyProjects-C/test-cuda/cuda_demo/cuda_main.cu(100): warning C4996: 'cudaThreadSynchronize': 被声明为已否决
+E:/AAAworkfiles/MyProjects-C/test-cuda/cuda_demo/cuda_main.cu(123): warning C4996: 'cudaThreadSynchronize': 被声明为已否决
+cuda_main.cu.obj : error LNK2019: 无法解析的外部符号 cublasCreate_v2，函数 main 中引用了该符号
+cuda_main.cu.obj : error LNK2019: 无法解析的外部符号 cublasDestroy_v2，函数 main 中引用了该符号
+cuda_main.cu.obj : error LNK2019: 无法解析的外部符号 cublasSetVector，函数 main 中引用了该符号
+cuda_main.cu.obj : error LNK2019: 无法解析的外部符号 cublasGetVector，函数 main 中引用了该符号
+cuda_main.cu.obj : error LNK2019: 无法解析的外部符号 cublasSgemm_v2，函数 main 中引用了该符号
+E:\AAAworkfiles\MyProjects-C\test-cuda\cuda_demo\x64\Debug\cuda_demo.exe : fatal error LNK1120: 5 个无法解析的外部命令

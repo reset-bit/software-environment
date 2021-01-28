@@ -1,0 +1,2 @@
+E:\AAAworkfiles\MyProjects-C\test-vs\Debug\test-OpenMP.exe
+E:\AAAworkfiles\MyProjects-C\test-vs\Debug\test-OpenMP.pdb
